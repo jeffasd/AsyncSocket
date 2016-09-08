@@ -1,4 +1,5 @@
-# AsyncSocket
+# 原作者写的挺用心的 着这里标记一下 
+AsyncSocket
 我在工作中用GCDAsyncSocket封装的一套TCP网络服务框架，用在公司的股票产品上
 
 股票场景有实时性，所以通讯协议必须走socket，股票数据量大，传输协议用谷歌的ProtoBuffer，序列化速度快，数据压缩比高，省流量
